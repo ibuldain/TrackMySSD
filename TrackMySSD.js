@@ -17,8 +17,7 @@ await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/5
       const band = await page.evaluate(() => document.querySelector('#precio-main').textContent);
       console.log(band);
 
-      let date = new Date();
-      
+      let date = new Date();      
       let day = date.getDate();
       let month = date.getMonth() + 1;
       let year = date.getFullYear();

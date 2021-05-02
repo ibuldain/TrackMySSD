@@ -5,7 +5,7 @@ data = {}
 data['time'] = []
 data['price'] = []
 
-with open('ssd.csv') as file:
+with open('SSD_price.csv') as file:
 
     for line in file:
         time, price = line.split(',', 1)
